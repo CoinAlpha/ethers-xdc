@@ -69,6 +69,9 @@ function getAddress(address) {
     if (typeof (address) !== "string") {
         logger.throwArgumentError("invalid address", "address", address);
     }
+    if (address && address.length === 43 && address.slice(0, 3) === 'xdc') {
+        address = '0x' + address.slice(3);
+      }
     if (address.match(/^(0x)?[0-9a-fA-F]{40}$/)) {
         // Missing the 0x prefix
         if (address.substring(0, 2) !== "0x") {

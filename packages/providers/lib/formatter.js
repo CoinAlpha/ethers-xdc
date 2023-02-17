@@ -271,6 +271,10 @@ var Formatter = /** @class */ (function () {
         if (transaction.gas != null && transaction.gasLimit == null) {
             transaction.gasLimit = transaction.gas;
         }
+        // Specifically for XDC Chain
+        if (transaction.to && transaction.to.length === 43 && transaction.to.slice(0, 3) === 'xdc') {
+            transaction.to = '0x' + transaction.to.slice(3);
+        }
         // Some clients (TestRPC) do strange things like return 0x0 for the
         // 0 address; correct this to be a real address
         if (transaction.to && bignumber_1.BigNumber.from(transaction.to).isZero()) {
