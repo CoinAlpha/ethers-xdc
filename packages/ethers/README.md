@@ -80,9 +80,9 @@ everyone else with packages they do not need.
 
 We will keep a list of useful packages here.
 
-- `@ethersproject/experimental` ([documentation](https://docs.ethers.io))
-- `@ethersproject/cli` ([documentation](https://docs.ethers.io))
-- `@ethersproject/hardware-wallets` ([documentation](https://docs.ethers.io))
+- `@ethersproject-xdc/experimental` ([documentation](https://docs.ethers.io))
+- `@ethersproject-xdc/cli` ([documentation](https://docs.ethers.io))
+- `@ethersproject-xdc/hardware-wallets` ([documentation](https://docs.ethers.io))
 
 
 Sponsors

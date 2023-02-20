@@ -1,12 +1,12 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bignumber": "^5.7.0",
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/keccak256": "^5.7.0",
-    "@ethersproject/logger": "^5.7.0",
-    "@ethersproject/sha2": "^5.7.0",
-    "@ethersproject/strings": "^5.7.0"
+    "@ethersproject-xdc/bignumber": "^5.7.0",
+    "@ethersproject-xdc/bytes": "^5.7.0",
+    "@ethersproject-xdc/keccak256": "^5.7.0",
+    "@ethersproject-xdc/logger": "^5.7.0",
+    "@ethersproject-xdc/sha2": "^5.7.0",
+    "@ethersproject-xdc/strings": "^5.7.0"
   },
   "description": "Solidity coder for non-standard (tight) packing.",
   "ethereum": "donations.ethers.eth",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/solidity",
+  "name": "@ethersproject-xdc/solidity",
   "publishConfig": {
     "access": "public"
   },

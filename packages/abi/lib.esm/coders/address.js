@@ -1,6 +1,6 @@
 "use strict";
-import { getAddress } from "@ethersproject/address";
-import { hexZeroPad } from "@ethersproject/bytes";
+import { getAddress } from "@ethersproject-xdc/address";
+import { hexZeroPad } from "@ethersproject-xdc/bytes";
 import { Coder } from "./abstract-coder";
 export class AddressCoder extends Coder {
     constructor(localName) {

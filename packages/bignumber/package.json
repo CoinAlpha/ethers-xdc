@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/logger": "^5.7.0",
+    "@ethersproject-xdc/bytes": "^5.7.0",
+    "@ethersproject-xdc/logger": "^5.7.0",
     "bn.js": "^5.2.1"
   },
   "description": "BigNumber library used in ethers.js.",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/bignumber",
+  "name": "@ethersproject-xdc/bignumber",
   "publishConfig": {
     "access": "public"
   },

@@ -3,23 +3,23 @@
 import {
     Block, BlockTag, BlockWithTransactions, EventType, Filter, FilterByBlockHash, ForkEvent,
     Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse
-} from "@ethersproject/abstract-provider";
-import { encode as base64Encode } from "@ethersproject/base64";
-import { Base58 } from "@ethersproject/basex";
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { arrayify, BytesLike, concat, hexConcat, hexDataLength, hexDataSlice, hexlify, hexValue, hexZeroPad, isHexString } from "@ethersproject/bytes";
-import { HashZero } from "@ethersproject/constants";
-import { dnsEncode, namehash } from "@ethersproject/hash";
-import { getNetwork, Network, Networkish } from "@ethersproject/networks";
-import { Deferrable, defineReadOnly, getStatic, resolveProperties } from "@ethersproject/properties";
-import { Transaction } from "@ethersproject/transactions";
-import { sha256 } from "@ethersproject/sha2";
-import { toUtf8Bytes, toUtf8String } from "@ethersproject/strings";
-import { fetchJson, poll } from "@ethersproject/web";
+} from "@ethersproject-xdc/abstract-provider";
+import { encode as base64Encode } from "@ethersproject-xdc/base64";
+import { Base58 } from "@ethersproject-xdc/basex";
+import { BigNumber, BigNumberish } from "@ethersproject-xdc/bignumber";
+import { arrayify, BytesLike, concat, hexConcat, hexDataLength, hexDataSlice, hexlify, hexValue, hexZeroPad, isHexString } from "@ethersproject-xdc/bytes";
+import { HashZero } from "@ethersproject-xdc/constants";
+import { dnsEncode, namehash } from "@ethersproject-xdc/hash";
+import { getNetwork, Network, Networkish } from "@ethersproject-xdc/networks";
+import { Deferrable, defineReadOnly, getStatic, resolveProperties } from "@ethersproject-xdc/properties";
+import { Transaction } from "@ethersproject-xdc/transactions";
+import { sha256 } from "@ethersproject-xdc/sha2";
+import { toUtf8Bytes, toUtf8String } from "@ethersproject-xdc/strings";
+import { fetchJson, poll } from "@ethersproject-xdc/web";
 
 import bech32 from "bech32";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-xdc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

@@ -6,7 +6,7 @@ stable and does not follow [[link-semver]] versioning, so applications
 requiring it should specify the //exact version// needed.
 
 These features are not available in the core ethers package, so to use them
-you must install the ``@ethersproject/experimental`` package and import them
+you must install the ``@ethersproject-xdc/experimental`` package and import them
 from that.
 
 _subsection: BrainWallet @<experimental-brainwallet> @INHERIT<[[Wallet]]>
@@ -26,10 +26,10 @@ Generate a brain wallet which is compatible with the ethers v3 and earlier.
 _code: Importing @lang<script>
 
 // Node
-const { BrainWallet } = require("@ethersproject/experimental");
+const { BrainWallet } = require("@ethersproject-xdc/experimental");
 
 // ESM/TypeScript
-import { BrainWallet } from "@ethersproject/experimental";
+import { BrainWallet } from "@ethersproject-xdc/experimental";
 
 
 _subsection: EIP1193Bridge @<experimental-eip1193bridge> @INHERIT<[[link-npm-events]]>
@@ -41,10 +41,10 @@ when interacting with other libraries.
 _code: Importing @lang<script>
 
 // Node
-const { Eip1193Bridge } = require("@ethersproject/experimental");
+const { Eip1193Bridge } = require("@ethersproject-xdc/experimental");
 
 // ESM/TypeScript
-import { Eip1193Bridge } from "@ethersproject/experimental";
+import { Eip1193Bridge } from "@ethersproject-xdc/experimental";
 
 
 _subsection: NonceManager @<experimental-noncemanager> @INHERIT<[[Signer]]>
@@ -87,7 +87,7 @@ this class.
 _code: Importing @lang<script>
 
 // Node
-const { NonceManager } = require("@ethersproject/experimental");
+const { NonceManager } = require("@ethersproject-xdc/experimental");
 
 // ESM/TypeScript
-import { NonceManager } from "@ethersproject/experimental";
+import { NonceManager } from "@ethersproject-xdc/experimental";

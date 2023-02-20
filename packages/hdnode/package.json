@@ -1,18 +1,18 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/abstract-signer": "^5.7.0",
-    "@ethersproject/basex": "^5.7.0",
-    "@ethersproject/bignumber": "^5.7.0",
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/logger": "^5.7.0",
-    "@ethersproject/pbkdf2": "^5.7.0",
-    "@ethersproject/properties": "^5.7.0",
-    "@ethersproject/sha2": "^5.7.0",
-    "@ethersproject/signing-key": "^5.7.0",
-    "@ethersproject/strings": "^5.7.0",
-    "@ethersproject/transactions": "^5.7.0",
-    "@ethersproject/wordlists": "^5.7.0"
+    "@ethersproject-xdc/abstract-signer": "^5.7.0",
+    "@ethersproject-xdc/basex": "^5.7.0",
+    "@ethersproject-xdc/bignumber": "^5.7.0",
+    "@ethersproject-xdc/bytes": "^5.7.0",
+    "@ethersproject-xdc/logger": "^5.7.0",
+    "@ethersproject-xdc/pbkdf2": "^5.7.0",
+    "@ethersproject-xdc/properties": "^5.7.0",
+    "@ethersproject-xdc/sha2": "^5.7.0",
+    "@ethersproject-xdc/signing-key": "^5.7.0",
+    "@ethersproject-xdc/strings": "^5.7.0",
+    "@ethersproject-xdc/transactions": "^5.7.0",
+    "@ethersproject-xdc/wordlists": "^5.7.0"
   },
   "description": "BIP32 Hierarchal Deterministic Node operations.",
   "ethereum": "donations.ethers.eth",
@@ -33,7 +33,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/hdnode",
+  "name": "@ethersproject-xdc/hdnode",
   "publishConfig": {
     "access": "public"
   },

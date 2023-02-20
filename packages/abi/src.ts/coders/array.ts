@@ -1,6 +1,6 @@
 "use strict";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-xdc/logger";
 import { version } from "../_version";
 const logger = new Logger(version);
 

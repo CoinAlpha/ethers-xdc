@@ -1,9 +1,9 @@
 "use strict";
 
-import { Network } from "@ethersproject/networks";
+import { Network } from "@ethersproject-xdc/networks";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-xdc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

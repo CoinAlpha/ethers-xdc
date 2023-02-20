@@ -1,20 +1,20 @@
 "use strict";
 
-import { getAddress } from "@ethersproject/address";
-import { Provider, TransactionRequest } from "@ethersproject/abstract-provider";
-import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@ethersproject/abstract-signer";
-import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@ethersproject/bytes";
-import { hashMessage, _TypedDataEncoder } from "@ethersproject/hash";
-import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@ethersproject/hdnode";
-import { keccak256 } from "@ethersproject/keccak256";
-import { defineReadOnly, resolveProperties } from "@ethersproject/properties";
-import { randomBytes } from "@ethersproject/random";
-import { SigningKey } from "@ethersproject/signing-key";
-import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@ethersproject/json-wallets";
-import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@ethersproject/transactions";
-import { Wordlist } from "@ethersproject/wordlists";
+import { getAddress } from "@ethersproject-xdc/address";
+import { Provider, TransactionRequest } from "@ethersproject-xdc/abstract-provider";
+import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@ethersproject-xdc/abstract-signer";
+import { arrayify, Bytes, BytesLike, concat, hexDataSlice, isHexString, joinSignature, SignatureLike } from "@ethersproject-xdc/bytes";
+import { hashMessage, _TypedDataEncoder } from "@ethersproject-xdc/hash";
+import { defaultPath, HDNode, entropyToMnemonic, Mnemonic } from "@ethersproject-xdc/hdnode";
+import { keccak256 } from "@ethersproject-xdc/keccak256";
+import { defineReadOnly, resolveProperties } from "@ethersproject-xdc/properties";
+import { randomBytes } from "@ethersproject-xdc/random";
+import { SigningKey } from "@ethersproject-xdc/signing-key";
+import { decryptJsonWallet, decryptJsonWalletSync, encryptKeystore, ProgressCallback } from "@ethersproject-xdc/json-wallets";
+import { computeAddress, recoverAddress, serialize, UnsignedTransaction } from "@ethersproject-xdc/transactions";
+import { Wordlist } from "@ethersproject-xdc/wordlists";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-xdc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

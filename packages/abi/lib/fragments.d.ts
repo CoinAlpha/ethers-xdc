@@ -1,4 +1,4 @@
-import { BigNumber } from "@ethersproject/bignumber";
+import { BigNumber } from "@ethersproject-xdc/bignumber";
 export interface JsonFragmentType {
     readonly name?: string;
     readonly indexed?: boolean;
