@@ -50,7 +50,7 @@ function getSigningKeyConfig() {
 
     // Keep @ethersproject imports, merge anything else
     plugins.push(resolveNode({
-        //resolveOnly: ((name === "ethers") ? []: [ /^(?!(@ethersproject|ethers))/ ]),
+        //resolveOnly: ((name === "ethers-xdc") ? []: [ /^(?!(@ethersproject|ethers))/ ]),
         resolveOnly: [ /^(?!(@ethersproject|ethers|bn\.js|hash\.js))/ ],
         mainFields: [ "module", "browser", "main" ],
         preferBuiltins: false

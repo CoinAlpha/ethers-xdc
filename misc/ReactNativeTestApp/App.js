@@ -29,7 +29,7 @@ import "@ethersproject-xdc/shims";
 //import "./libs/shims";
 
 // Import ethers
-import { ethers } from "ethers";
+import { ethers } from "ethers-xdc";
 //import { ethers } from "./libs/ethers";
 
 // Import the test framework

@@ -1,6 +1,6 @@
 'use strict';
 import assert from 'assert';
-import { ethers } from "ethers";
+import { ethers } from "ethers-xdc";
 import { loadTests } from "@ethersproject-xdc/testcases";
 function checkWordlist(content, wordlist) {
     let words = content.split('\n');

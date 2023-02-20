@@ -17,7 +17,7 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "ethers-xdc"
   ],
   "license": "MIT",
   "main": "./src/index.js",

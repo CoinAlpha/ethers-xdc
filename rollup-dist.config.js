@@ -93,7 +93,7 @@ function getUmdConfig() {
         output: {
             file: `packages/ethers/dist/ethers.umd.js`,
             format: "umd",
-            name: "ethers",
+            name: "ethers-xdc",
             sourcemap: true
         },
         context: "commonjsGlobal",

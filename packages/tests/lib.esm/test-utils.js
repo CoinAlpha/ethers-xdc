@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import assert from 'assert';
-import { ethers } from "ethers";
+import { ethers } from "ethers-xdc";
 import { loadTests } from "@ethersproject-xdc/testcases";
 import * as utils from './utils';
 function equals(a, b) {

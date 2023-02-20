@@ -108,8 +108,8 @@ const server = createServer(async (req, resp) => {
     });
 
     let result = null;
-    if (packageName === "ethers") {
-        result = getPackageInfo("ethers");
+    if (packageName === "ethers-xdc") {
+        result = getPackageInfo("ethers-xdc");
         console.log(`Using local ${ packageName }...`);
     } else if (packageName.split("/")[0] === "@ethersproject") {
         result = getPackageInfo(packageName.split("/").pop());

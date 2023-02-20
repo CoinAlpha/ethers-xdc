@@ -158,7 +158,7 @@ exports.invalidate = invalidate;
             yield npm.publish(path, info, options);
             local.updateJson(pathJson, { gitHead: undefined }, true);
         }
-        if (publishNames.indexOf("ethers") >= 0 || forcePublish) {
+        if (publishNames.indexOf("ethers-xdc") >= 0 || forcePublish) {
             const change = (0, changelog_1.getLatestChange)();
             const patchVersion = change.version.substring(1);
             const minorVersion = patchVersion.split(".").slice(0, 2).join(".");

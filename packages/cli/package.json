@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "bin": {
-    "ethers": "./lib/bin/ethers.js",
+    "ethers-xdc": "./lib/bin/ethers.js",
     "ethers-asm": "./lib/bin/ethers-asm.js",
     "ethers-ens": "./lib/bin/ethers-ens.js",
     "ethers-ts": "./lib/bin/ethers-ts.js"
@@ -11,7 +11,7 @@
     "@babel/types": "7.8.3",
     "@ethersproject-xdc/asm": "^5.7.0",
     "@ethersproject-xdc/basex": "^5.7.0",
-    "ethers": "^5.7.0",
+    "ethers-xdc": "^5.7.0",
     "scrypt-js": "3.0.1",
     "solc": "0.7.1"
   },
@@ -29,7 +29,7 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers",
+    "ethers-xdc",
     "cli"
   ],
   "license": "MIT",

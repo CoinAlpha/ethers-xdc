@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 "use strict";
-import { ethers } from "ethers";
+import { ethers } from "ethers-xdc";
 function getType(param, flexible) {
     if (param.type === "address" || param.type === "string") {
         return "string";

@@ -2,7 +2,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.generate = exports.header = void 0;
-var ethers_1 = require("ethers");
+var ethers_xdc_1 = require("ethers-xdc");
 function getType(param, flexible) {
     if (param.type === "address" || param.type === "string") {
         return "string";
@@ -120,7 +120,7 @@ function generate(contract, bytecode) {
     lines.push("    static ABI(): Array<string> {");
     lines.push("        return [");
     contract.interface.fragments.forEach(function (fragment) {
-        lines.push("            \"" + fragment.format(ethers_1.ethers.utils.FormatTypes.full) + "\",");
+        lines.push("            \"" + fragment.format(ethers_xdc_1.ethers.utils.FormatTypes.full) + "\",");
     });
     lines.push("        ];");
     lines.push("    }");

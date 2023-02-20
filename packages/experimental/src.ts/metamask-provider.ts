@@ -1,6 +1,6 @@
 "use strict";
 
-import { ethers } from "ethers";
+import { ethers } from "ethers-xdc";
 
 import { version } from "./_version";
 

@@ -1,4 +1,4 @@
-import { ethers } from "ethers";
+import { ethers } from "ethers-xdc";
 export interface ContractCode {
     interface: ethers.utils.Interface;
     name: string;

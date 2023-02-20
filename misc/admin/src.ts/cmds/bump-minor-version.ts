@@ -7,7 +7,7 @@ import * as npm from "../npm";
 import { dirnames, getPackageJsonPath } from "../path";
 
 (async function() {
-    const pNpm = await npm.getPackage("ethers");
+    const pNpm = await npm.getPackage("ethers-xdc");
     const newVersion = semver.inc(pNpm.version, "minor");
 
     for (let i = 0; i < dirnames.length; i++) {
@@ -18,7 +18,7 @@ import { dirnames, getPackageJsonPath } from "../path";
             let version = pLocal.dependencies[name];
 
             const prefix = name.split("/")[0];
-            if (dirname === "ethers") {
+            if (dirname === "ethers-xdc") {
                 if (prefix === "@ethersproject") {
                     if (!version.match(/^[0-9]+\.[0-9]+\.[0-9]+$/)) {
                         throw new Error(`bad version for bumping: ${ dirname }:${ name }:${ version }`);
@@ -26,7 +26,7 @@ import { dirnames, getPackageJsonPath } from "../path";
                     version = newVersion;
                 }
             } else {
-                if (prefix === "ethers" || prefix === "@ethersproject") {
+                if (prefix === "ethers-xdc" || prefix === "@ethersproject") {
                     if (version.substring(0, 1) !== "^") {
                         throw new Error(`bad version for bumping: ${ dirname }:${ name }:${ version }`);
                     }

@@ -2,7 +2,7 @@
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
     "@ethersproject-xdc/web": "^5.7.0",
-    "ethers": "^5.7.0",
+    "ethers-xdc": "^5.7.0",
     "scrypt-js": "3.0.1"
   },
   "description": "Experimental libraries for ethers. These should not be considered stable.",
@@ -19,7 +19,7 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "ethers-xdc"
   ],
   "license": "MIT",
   "main": "./lib/index.js",

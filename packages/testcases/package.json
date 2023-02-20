@@ -20,7 +20,7 @@
     "@ethersproject-xdc/bytes": "^5.7.0",
     "@ethersproject-xdc/keccak256": "^5.7.0",
     "@ethersproject-xdc/strings": "^5.7.0",
-    "ethers": "^5.7.0",
+    "ethers-xdc": "^5.7.0",
     "tiny-inflate": "1.0.3"
   },
   "description": "Testcases for Ethereum and scripts to generate testcases.",
@@ -37,7 +37,7 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "ethers-xdc"
   ],
   "license": "MIT",
   "main": "./lib/index.js",

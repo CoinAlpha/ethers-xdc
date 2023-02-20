@@ -49,7 +49,7 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "ethers-xdc"
   ],
   "license": "MIT",
   "main": "./lib/index.js",

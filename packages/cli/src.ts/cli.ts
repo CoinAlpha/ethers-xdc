@@ -5,7 +5,7 @@
 import fs from "fs";
 import { basename } from "path";
 
-import { ethers } from "ethers";
+import { ethers } from "ethers-xdc";
 import * as scrypt from "scrypt-js";
 
 import { getChoice, getPassword, getProgressBar } from "./prompt";
@@ -762,7 +762,7 @@ export class CLI {
         try {
             return basename(process.mainModule.filename).split(".")[0];
         } catch (error) { }
-        return "ethers";
+        return "ethers-xdc";
     }
 
     // @TODO: Better way to specify default; i.e. may not have args

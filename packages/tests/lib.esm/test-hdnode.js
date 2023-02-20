@@ -1,6 +1,6 @@
 'use strict';
 import assert from "assert";
-import { ethers } from "ethers";
+import { ethers } from "ethers-xdc";
 import { loadTests, randomNumber } from "@ethersproject-xdc/testcases";
 function randomCase(seed, text) {
     return text.split("").map(function (c, index) {

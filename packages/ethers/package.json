@@ -47,12 +47,12 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "ethers-xdc"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "ethers",
+  "name": "ethers-xdc",
   "repository": {
     "directory": "packages/ethers",
     "type": "git",
