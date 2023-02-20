@@ -1,6 +1,6 @@
 "use strict";
-import { arrayify } from "@ethersproject/bytes";
-import { Logger } from "@ethersproject/logger";
+import { arrayify } from "@ethersproject-xdc/bytes";
+import { Logger } from "@ethersproject-xdc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 ///////////////////////////////

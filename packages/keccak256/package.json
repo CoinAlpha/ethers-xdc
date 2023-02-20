@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject-xdc/bytes": "file:../bytes",
     "js-sha3": "0.8.0"
   },
   "description": "The keccak256 hash function for ethers.",
@@ -16,6 +16,7 @@
       "url": "https://www.buymeacoffee.com/ricmoo"
     }
   ],
+  "gitHead": "ec1b9583039a14a0e0fa15d0a2a6082a2f41cf5b",
   "keywords": [
     "Ethereum",
     "ethers"
@@ -23,7 +24,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/keccak256",
+  "name": "@ethersproject-xdc/keccak256",
   "publishConfig": {
     "access": "public"
   },

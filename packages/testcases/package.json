@@ -1,6 +1,6 @@
 {
   "_devDependencies": {
-    "@ethersproject/cli": "^5.0.0",
+    "@ethersproject-xdc/cli": "file:../cli",
     "@types/bip39": "2.4.1",
     "@types/bitcoinjs-lib": "3.3.2",
     "bip39": "2.5.0",
@@ -16,11 +16,11 @@
     "./lib/disk-utils": "./lib/browser-disk-utils.js"
   },
   "dependencies": {
-    "@ethersproject/bignumber": "^5.7.0",
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/keccak256": "^5.7.0",
-    "@ethersproject/strings": "^5.7.0",
-    "ethers": "^5.7.0",
+    "@ethersproject-xdc/bignumber": "file:../bignumber",
+    "@ethersproject-xdc/bytes": "file:../bytes",
+    "@ethersproject-xdc/keccak256": "file:../keccak256",
+    "@ethersproject-xdc/strings": "file:../strings",
+    "ethers": "file:../ethers",
     "tiny-inflate": "1.0.3"
   },
   "description": "Testcases for Ethereum and scripts to generate testcases.",
@@ -42,7 +42,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/testcases",
+  "name": "@ethersproject-xdc/testcases",
   "publishConfig": {
     "access": "public"
   },

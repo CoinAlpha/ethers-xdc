@@ -34,7 +34,7 @@ const {
 
     Deferrable
 
-} = require("@ethersproject/properties");
+} = require("@ethersproject-xdc/properties");
 ```
 
 

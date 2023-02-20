@@ -1,7 +1,7 @@
-import { concat, hexlify } from "@ethersproject/bytes";
-import { toUtf8Bytes, toUtf8String } from "@ethersproject/strings";
-import { keccak256 } from "@ethersproject/keccak256";
-import { Logger } from "@ethersproject/logger";
+import { concat, hexlify } from "@ethersproject-xdc/bytes";
+import { toUtf8Bytes, toUtf8String } from "@ethersproject-xdc/strings";
+import { keccak256 } from "@ethersproject-xdc/keccak256";
+import { Logger } from "@ethersproject-xdc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { ens_normalize } from "./ens-normalize/lib";

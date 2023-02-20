@@ -1,6 +1,6 @@
 "use strict";
 
-import { arrayify } from "@ethersproject/bytes";
+import { arrayify } from "@ethersproject-xdc/bytes";
 
 import type { GetUrlResponse, Options } from "./types";
 

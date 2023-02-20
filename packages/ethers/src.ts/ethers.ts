@@ -1,30 +1,30 @@
 "use strict";
 
-import { BaseContract, Contract, ContractFactory } from "@ethersproject/contracts";
+import { BaseContract, Contract, ContractFactory } from "@ethersproject-xdc/contracts";
 
-import { BigNumber, FixedNumber } from "@ethersproject/bignumber";
+import { BigNumber, FixedNumber } from "@ethersproject-xdc/bignumber";
 
-import { Signer, VoidSigner } from "@ethersproject/abstract-signer";
-import { Wallet } from "@ethersproject/wallet";
+import { Signer, VoidSigner } from "@ethersproject-xdc/abstract-signer";
+import { Wallet } from "@ethersproject-xdc/wallet";
 
-import * as constants from "@ethersproject/constants";
+import * as constants from "@ethersproject-xdc/constants";
 
-import * as providers from "@ethersproject/providers";
-import { getDefaultProvider } from "@ethersproject/providers";
+import * as providers from "@ethersproject-xdc/providers";
+import { getDefaultProvider } from "@ethersproject-xdc/providers";
 
-import { Wordlist, wordlists} from "@ethersproject/wordlists";
+import { Wordlist, wordlists} from "@ethersproject-xdc/wordlists";
 
 import * as utils from "./utils";
 
-import { ErrorCode as errors, Logger } from "@ethersproject/logger";
+import { ErrorCode as errors, Logger } from "@ethersproject-xdc/logger";
 
 ////////////////////////
 // Types
 
-import type { TypedDataDomain, TypedDataField } from "@ethersproject/abstract-signer";
-import { BigNumberish } from "@ethersproject/bignumber";
-import { Bytes, BytesLike, Signature } from "@ethersproject/bytes";
-import { Transaction, UnsignedTransaction } from "@ethersproject/transactions";
+import type { TypedDataDomain, TypedDataField } from "@ethersproject-xdc/abstract-signer";
+import { BigNumberish } from "@ethersproject-xdc/bignumber";
+import { Bytes, BytesLike, Signature } from "@ethersproject-xdc/bytes";
+import { Transaction, UnsignedTransaction } from "@ethersproject-xdc/transactions";
 
 
 ////////////////////////
@@ -53,7 +53,7 @@ import {
     PopulatedTransaction,
 
     ContractInterface
-} from "@ethersproject/contracts";
+} from "@ethersproject-xdc/contracts";
 
 
 ////////////////////////

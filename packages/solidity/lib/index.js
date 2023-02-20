@@ -1,16 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sha256 = exports.keccak256 = exports.pack = void 0;
-var bignumber_1 = require("@ethersproject/bignumber");
-var bytes_1 = require("@ethersproject/bytes");
-var keccak256_1 = require("@ethersproject/keccak256");
-var sha2_1 = require("@ethersproject/sha2");
-var strings_1 = require("@ethersproject/strings");
+var bignumber_1 = require("@ethersproject-xdc/bignumber");
+var bytes_1 = require("@ethersproject-xdc/bytes");
+var keccak256_1 = require("@ethersproject-xdc/keccak256");
+var sha2_1 = require("@ethersproject-xdc/sha2");
+var strings_1 = require("@ethersproject-xdc/strings");
 var regexBytes = new RegExp("^bytes([0-9]+)$");
 var regexNumber = new RegExp("^(u?int)([0-9]*)$");
 var regexArray = new RegExp("^(.*)\\[([0-9]*)\\]$");
 var Zeros = "0000000000000000000000000000000000000000000000000000000000000000";
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@ethersproject-xdc/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 function _pack(type, value, isArray) {

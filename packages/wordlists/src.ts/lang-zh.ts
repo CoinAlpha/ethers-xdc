@@ -1,6 +1,6 @@
 "use strict";
 
-import { toUtf8String } from "@ethersproject/strings";
+import { toUtf8String } from "@ethersproject-xdc/strings";
 
 import { Wordlist } from "./wordlist";
 

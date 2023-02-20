@@ -13,6 +13,7 @@
       "url": "https://www.buymeacoffee.com/ricmoo"
     }
   ],
+  "gitHead": "ec1b9583039a14a0e0fa15d0a2a6082a2f41cf5b",
   "keywords": [
     "Ethereum",
     "ethers"
@@ -20,7 +21,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/logger",
+  "name": "@ethersproject-xdc/logger",
   "publishConfig": {
     "access": "public"
   },

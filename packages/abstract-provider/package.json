@@ -1,13 +1,13 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bignumber": "^5.7.0",
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/logger": "^5.7.0",
-    "@ethersproject/networks": "^5.7.0",
-    "@ethersproject/properties": "^5.7.0",
-    "@ethersproject/transactions": "^5.7.0",
-    "@ethersproject/web": "^5.7.0"
+    "@ethersproject-xdc/bignumber": "file:../bignumber",
+    "@ethersproject-xdc/bytes": "file:../bytes",
+    "@ethersproject-xdc/logger": "file:../logger",
+    "@ethersproject-xdc/networks": "file:../networks",
+    "@ethersproject-xdc/properties": "file:../properties",
+    "@ethersproject-xdc/transactions": "file:../transactions",
+    "@ethersproject-xdc/web": "file:../web"
   },
   "description": "An Abstract Class for describing an Ethereum Provider for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -21,6 +21,7 @@
       "url": "https://www.buymeacoffee.com/ricmoo"
     }
   ],
+  "gitHead": "ec1b9583039a14a0e0fa15d0a2a6082a2f41cf5b",
   "keywords": [
     "Ethereum",
     "ethers"
@@ -28,7 +29,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/abstract-provider",
+  "name": "@ethersproject-xdc/abstract-provider",
   "publishConfig": {
     "access": "public"
   },

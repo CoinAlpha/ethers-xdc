@@ -1,5 +1,5 @@
-import { deepCopy } from "@ethersproject/properties";
-import { fetchJson } from "@ethersproject/web";
+import { deepCopy } from "@ethersproject-xdc/properties";
+import { fetchJson } from "@ethersproject-xdc/web";
 import { JsonRpcProvider } from "./json-rpc-provider";
 // Experimental
 export class JsonRpcBatchProvider extends JsonRpcProvider {

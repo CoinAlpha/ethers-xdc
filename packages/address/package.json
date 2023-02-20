@@ -1,11 +1,11 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bignumber": "^5.7.0",
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/keccak256": "^5.7.0",
-    "@ethersproject/logger": "^5.7.0",
-    "@ethersproject/rlp": "^5.7.0"
+    "@ethersproject-xdc/bignumber": "file:../bignumber",
+    "@ethersproject-xdc/bytes": "file:../bytes",
+    "@ethersproject-xdc/keccak256": "file:../keccak256",
+    "@ethersproject-xdc/logger": "file:../logger",
+    "@ethersproject-xdc/rlp": "file:../rlp"
   },
   "description": "Utilities for handling Ethereum Addresses for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -19,6 +19,7 @@
       "url": "https://www.buymeacoffee.com/ricmoo"
     }
   ],
+  "gitHead": "ec1b9583039a14a0e0fa15d0a2a6082a2f41cf5b",
   "keywords": [
     "Ethereum",
     "ethers"
@@ -26,7 +27,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/address",
+  "name": "@ethersproject-xdc/address",
   "publishConfig": {
     "access": "public"
   },

@@ -1,7 +1,7 @@
 "use strict";
 
-import { Bytes } from "@ethersproject/bytes";
-import { ExternallyOwnedAccount } from "@ethersproject/abstract-signer";
+import { Bytes } from "@ethersproject-xdc/bytes";
+import { ExternallyOwnedAccount } from "@ethersproject-xdc/abstract-signer";
 
 import { decrypt as decryptCrowdsale } from "./crowdsale";
 import { getJsonWalletAddress, isCrowdsaleWallet, isKeystoreWallet } from "./inspect";

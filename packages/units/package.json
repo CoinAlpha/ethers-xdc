@@ -1,9 +1,9 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bignumber": "^5.7.0",
-    "@ethersproject/constants": "^5.7.0",
-    "@ethersproject/logger": "^5.7.0"
+    "@ethersproject-xdc/bignumber": "file:../bignumber",
+    "@ethersproject-xdc/constants": "file:../constants",
+    "@ethersproject-xdc/logger": "file:../logger"
   },
   "description": "Unit conversion functions for Ethereum.",
   "ethereum": "donations.ethers.eth",
@@ -17,6 +17,7 @@
       "url": "https://www.buymeacoffee.com/ricmoo"
     }
   ],
+  "gitHead": "b8cda5dffdcb688e38d7c6a0aec4c7b8b59c1af5",
   "keywords": [
     "Ethereum",
     "ethers",
@@ -26,7 +27,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/units",
+  "name": "@ethersproject-xdc/units",
   "publishConfig": {
     "access": "public"
   },
@@ -39,7 +40,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "sideEffects": false,
-  "tarballHash": "0x213811ac8c90bcf07e0baff3a6e583b9a25bbda6f0e8372773d7c1c85d894fa8",
+  "tarballHash": "0x497fb52f961e9d216c0e5bf0a961146b3709b44b2693f95f4fc7bf30045868cb",
   "types": "./lib/index.d.ts",
-  "version": "5.7.0"
+  "version": "5.6.0"
 }

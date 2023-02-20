@@ -7,11 +7,11 @@
     "./lib/geturl": "./lib/browser-geturl.js"
   },
   "dependencies": {
-    "@ethersproject/base64": "^5.7.0",
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/logger": "^5.7.0",
-    "@ethersproject/properties": "^5.7.0",
-    "@ethersproject/strings": "^5.7.0"
+    "@ethersproject-xdc/base64": "file:../base64",
+    "@ethersproject-xdc/bytes": "file:../bytes",
+    "@ethersproject-xdc/logger": "file:../logger",
+    "@ethersproject-xdc/properties": "file:../properties",
+    "@ethersproject-xdc/strings": "file:../strings"
   },
   "description": "Utility fucntions for managing web requests for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -25,6 +25,7 @@
       "url": "https://www.buymeacoffee.com/ricmoo"
     }
   ],
+  "gitHead": "44cbc7fa4e199c1d6113ceec3c5162f53def5bb8",
   "keywords": [
     "Ethereum",
     "ethers"
@@ -32,7 +33,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/web",
+  "name": "@ethersproject-xdc/web",
   "publishConfig": {
     "access": "public"
   },

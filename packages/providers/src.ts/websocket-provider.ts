@@ -1,14 +1,14 @@
 "use strict";
 
-import { BigNumber } from "@ethersproject/bignumber";
-import { Network, Networkish } from "@ethersproject/networks";
-import { defineReadOnly } from "@ethersproject/properties";
+import { BigNumber } from "@ethersproject-xdc/bignumber";
+import { Network, Networkish } from "@ethersproject-xdc/networks";
+import { defineReadOnly } from "@ethersproject-xdc/properties";
 
 import { Event } from "./base-provider";
 import { JsonRpcProvider } from "./json-rpc-provider";
 import { WebSocket } from "./ws";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-xdc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

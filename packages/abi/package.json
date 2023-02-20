@@ -1,15 +1,15 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/address": "^5.7.0",
-    "@ethersproject/bignumber": "^5.7.0",
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/constants": "^5.7.0",
-    "@ethersproject/hash": "^5.7.0",
-    "@ethersproject/keccak256": "^5.7.0",
-    "@ethersproject/logger": "^5.7.0",
-    "@ethersproject/properties": "^5.7.0",
-    "@ethersproject/strings": "^5.7.0"
+    "@ethersproject-xdc/address": "file:../address",
+    "@ethersproject-xdc/bignumber": "file:../bignumber",
+    "@ethersproject-xdc/bytes": "file:../bytes",
+    "@ethersproject-xdc/constants": "file:../constants",
+    "@ethersproject-xdc/hash": "file:../hash",
+    "@ethersproject-xdc/keccak256": "file:../keccak256",
+    "@ethersproject-xdc/logger": "file:../logger",
+    "@ethersproject-xdc/properties": "file:../properties",
+    "@ethersproject-xdc/strings": "file:../strings"
   },
   "description": "Utilities and Classes for parsing, formatting and managing Ethereum ABIs.",
   "ethereum": "donations.ethers.eth",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/abi",
+  "name": "@ethersproject-xdc/abi",
   "publishConfig": {
     "access": "public"
   },

@@ -1,11 +1,11 @@
 "use strict";
 
-import { decode as base64Decode, encode as base64Encode } from "@ethersproject/base64";
-import { hexlify, isBytesLike } from "@ethersproject/bytes";
-import { shallowCopy } from "@ethersproject/properties";
-import { toUtf8Bytes, toUtf8String } from "@ethersproject/strings";
+import { decode as base64Decode, encode as base64Encode } from "@ethersproject-xdc/base64";
+import { hexlify, isBytesLike } from "@ethersproject-xdc/bytes";
+import { shallowCopy } from "@ethersproject-xdc/properties";
+import { toUtf8Bytes, toUtf8String } from "@ethersproject-xdc/strings";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-xdc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

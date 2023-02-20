@@ -1,12 +1,12 @@
 
-import { Network } from "@ethersproject/networks";
+import { Network } from "@ethersproject-xdc/networks";
 
 import { showThrottleMessage } from "./formatter";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
 
-import type { ConnectionInfo } from "@ethersproject/web";
+import type { ConnectionInfo } from "@ethersproject-xdc/web";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-xdc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 
