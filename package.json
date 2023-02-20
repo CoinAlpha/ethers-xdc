@@ -1,5 +1,6 @@
 {
   "name": "ethers-xdc",
+  "version": "5.7.2",
   "common": {
     "ethereum": "donations.ethers.eth",
     "funding": [
